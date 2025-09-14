@@ -6,7 +6,7 @@ body, h1, ul {
 
 /* Set a background color */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #f0f0f0;
 }
 
@@ -58,6 +58,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.section-title {
+    text-align: center;       
+    font-size: 32px;          
+    margin: 20px 0;                    
+    font-weight: bold;        
+  }
+
+  .plant-title{
+    color: white;           /* kolor tekstu */
+    font-size: 30px;        /* rozmiar czcionki */
+    text-decoration: none;  /* bez podkreślenia */
+    display: flex;          /* potrzebne do centrowania */
+    justify-content: center; /* poziome wyśrodkowanie */
+    align-items: center;     /* pionowe wyśrodkowanie */
+    height: 100%;           /* żeby centrowanie działało na całej wysokości */
+  }
 
 /* Product Card */
 .product-card {
